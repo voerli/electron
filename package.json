@@ -1,0 +1,17 @@
+{
+  "name": "myexe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . myvoerli --win --out ../myvoerli --arch=x64 --app-version=0.0.1 --electron-version=6.1.4"
+  },
+  "author": "voerli",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^6.1.4",
+    "electron-packager": "13.0.1"
+  }
+}
